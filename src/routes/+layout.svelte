@@ -1,6 +1,9 @@
-<script lang="ts">
-	import '../app.css';
-	let { children } = $props();
+<script>
+	import Navigation from '../components/Navigation.svelte';
+	import '../app.css'
 </script>
 
-{@render children()}
+<div class="flex flex-col items-center w-full justify-between min-h-screen bg-black-gradient">
+	<slot />
+	<Navigation />
+</div>

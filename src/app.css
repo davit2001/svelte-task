@@ -1,3 +1,30 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'SF Pro';
+    src: local('SF Pro'), url('/static/fonts/SFPRODISPLAYREGULAR.OTF') format('otf'),
+    url('/static/fonts/SFPRODISPLAYMEDIUM.OTF') format('otf'),
+    url('/static/fonts/SFPRODISPLAYBOLD.OTF') format('otf'),
+    url('/static/fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF') format('otf'),
+    url('/static/fonts/SFPRODISPLAYBLACKITALIC.OTF') format('otf'),
+    url('/static/fonts/SFPRODISPLAYULTRALIGHTITALIC.OTF') format('otf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'), url('/static/fonts/Inter_24pt-Regular.ttf') format('ttf'),
+    url('/static/fonts/Inter_24pt-Medium.ttf') format('ttf'),
+    url('/static/fonts/Inter_24pt-Light.ttf') format('ttf'),
+    url('/static/fonts/Inter_24pt-Bold.ttf') format('ttf'),
+    url('/static/fonts/Inter_24pt-SemiBold.ttf') format('ttf'),
+    url('/static/fonts/Inter_24pt-ExtraLight.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
